@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ZIPKING-SERVER
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    import: configserver:http://localhost:8086
